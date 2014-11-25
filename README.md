@@ -53,11 +53,13 @@ You must have installed [Arduino's IDE](http://arduino.cc/en/Main/Software).
 + echo verde 50
 
 #### Piezo
-+ piezo = 10
+piezo = 10
 
 #### LCD
 pins 11,12,22 al 36
-leds de iluminación 51,13,9,8
+
+#### LEDs in the darkness
+51,13,9,8
 
 #### Conexión inalámbrica
 data 45
