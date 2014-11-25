@@ -41,13 +41,9 @@ You must have installed [Arduino's IDE](http://arduino.cc/en/Main/Software).
 + izquierda_ultrasonidos 
 + echo azul 40
 + triger verde 42
-
-
 + centro_ultrasonidos
 + echo azul 44
 + triger verde 46
-
-
 + derecha_ultrasonidos
 + echo azul 48
 + echo verde 50
