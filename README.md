@@ -12,7 +12,7 @@
 You must have installed [Arduino's IDE](http://arduino.cc/en/Main/Software).
 
 ### How to
-1. Copy `libraries` folder to your arduino installation path, on windows `C:\no\me\acuerdo\`.
+1. Copy `libraries` folder to your arduino installation path, on windows `C:\Program Files (x86)\Arduino`. Or use arduino's IDE `Tools>Import library`.
 2. Upload `transmission.ino` to your arduino uno board, the remote control.
 3. Upload `main_loop_v3.ino` to your arduino mega board.
 4. Switch everything on and enjoy!
