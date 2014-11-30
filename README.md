@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Limpiosity** is a robot, a spanish robot. It is based in both open software & hardware such as [Arduino](http://www.arduino.cc/). It is only made for educational and learning purpose. This page will only contain the *libraries* made to control some parts, for further information like construction materials and electronic circuits, visit [Limpiosity's site](http://www.vicenteortiz.me).
+**Limpiosity** is a robot, a spanish robot. It is based in both open software & hardware such as [Arduino](http://www.arduino.cc/). It is only made for educational and learning purpose. This page will only contain the *libraries* made to control some parts, for further information like construction materials and electronic circuits, visit [Limpiosity's site](http://www.vicenteortiz.me/limpiosity).
 
 ![limpiosity](limpiosity.jpg)
 
@@ -21,7 +21,7 @@ You must have installed [Arduino's IDE](http://arduino.cc/en/Main/Software).
 
 + Arduino mega (Limpiosity's brain)
 + Arduino uno (Remote control)
-+ Lots of sensors to make some noise and movement, check them out in [here](http://www.vicenteortiz.me)
++ Lots of sensors to make some noise and movement, check them out in [here](http://www.vicenteortiz.me/limpiosity)
 
 
 ## Other libraries
