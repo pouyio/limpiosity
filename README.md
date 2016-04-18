@@ -1,67 +1,60 @@
-# Limpiosity Documentation
-
-## Introduction
-
+# Introduction
 **Limpiosity** is a robot, a spanish robot. It is based in both open software & hardware such as [Arduino](http://www.arduino.cc/). It is only made for educational and learning purpose. This page will only contain the *libraries* made to control some parts, for further information like construction materials and electronic circuits, visit [Limpiosity's site](http://www.vicenteortiz.me/limpiosity).
 
 ![limpiosity](limpiosity.jpg)
 
-## Installation
-
-### Pre-requisites
+# Installation
+## Pre-requisites
 You must have installed [Arduino's IDE](http://arduino.cc/en/Main/Software).
 
-### How to
-1. Copy `libraries` folder to your arduino installation path, on windows `C:\Program Files (x86)\Arduino`. Or use arduino's IDE `Tools>Import library`.
-2. Upload `transmission.ino` to your arduino uno board, the remote control.
-3. Upload `main_loop_v3.ino` to your arduino mega board.
+## How to
+1. Copy `code/libraries` folder to your arduino installation path, on windows `C:\Program Files (x86)\Arduino`. Or use arduino's IDE `Tools>Import library`.
+2. Upload `code/transmission.ino` to your arduino uno board, the remote.
+3. Upload `code/main_loop.ino` to your arduino mega board.
 4. Switch everything on and enjoy!
 
-## Hardware used
-
-+ Arduino mega (Limpiosity's brain)
-+ Arduino uno (Remote control)
-+ Lots of sensors to make some noise and movement, check them out in [here](http://www.vicenteortiz.me/limpiosity)
-
-
-## Other libraries
+# Other libraries
 
 + [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire.pdf) (Remote control)
 
 
-## Pins
+# Hardware used
 
-#### Motors
-+ int _enable1 = 5;//motor izquierda
-+ int _direction1 = 4;//motor izquierda
-+ int _enable2 = 6;  // motor derecha
-+ int _direction2 = 7; //motor derecha
++ Arduino mega (Limpiosity's brain)
++ Arduino uno (Remote)
++ Lots of sensors to make some noise and movement, check them out in [here](http://www.vicenteortiz.me/limpiosity)
 
-#### Ultrasonidos
-+ izquierda_ultrasonidos 
-+ echo azul 40
-+ triger verde 42
-+ centro_ultrasonidos
-+ echo azul 44
-+ triger verde 46
-+ derecha_ultrasonidos
-+ echo azul 48
-+ echo verde 50
+# Pins
+### Motors
++ left motor =  5
++ left motor =  4
++ right motor =  6
++ right motor =  7
 
-#### Piezo
-piezo = 10
+### Ultrasounds
++ left ultrasounds
+  + echo azul = 40
+  + triger verde = 42
++ mid ultrasounds
+  + echo azul = 44
+  + triger verde = 46
++ right ultrasounds
+  + echo azul = 48
+  + echo verde = 50
 
-#### LCD
-pins 11,12,22 al 36
+### Buzzer
+10
 
-#### LEDs in the darkness
+### LCD
+11,12,22 to 36
+
+### LEDs
 51,13,9,8
 
-#### Conexión inalámbrica
+### Wireless connection
 data 45
 
-----------------------------------------------
-## Authors
+# Authors
 
 + David Martinez
 + Manu Rubio

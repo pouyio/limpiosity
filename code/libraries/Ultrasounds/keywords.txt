@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For Ultrasounds
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Ultrasounds	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+checkDistanceInCm	KEYWORD2
+isNear	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MIN_DISTANCE	LITERAL1
