@@ -1,5 +1,5 @@
 # Introduction
-**Limpiosity** is a robot, a spanish robot. It is based in both open software & hardware such as [Arduino](http://www.arduino.cc/). It is only made for educational and learning purpose. This page will only contain the *libraries* made to control some parts, for further information like construction materials and electronic circuits, visit [Limpiosity's site](http://www.vicenteortiz.me/limpiosity).
+**Limpiosity** is a robot, a spanish robot. It is based in both open software & hardware such as [Arduino](http://www.arduino.cc/). It is only made for educational and learning purpose. This page will only contain the *libraries* made to control some parts, for further information like construction materials and electronic circuits, visit [Limpiosity's site](http://limpiosity.qubic.es).
 
 ![limpiosity](limpiosity.jpg)
 
